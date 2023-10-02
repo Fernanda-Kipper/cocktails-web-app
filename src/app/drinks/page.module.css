@@ -1,0 +1,42 @@
+.main {
+   background-color: #202020;
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: flex-start;
+   padding: 60px;
+
+   gap: 24px;
+}
+
+.title {
+    background: -webkit-linear-gradient(90deg, #F13255 0%, #D134D1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.backBtn {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.cardList {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 310px);
+    width: 100%;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    max-width: 1050px;
+}

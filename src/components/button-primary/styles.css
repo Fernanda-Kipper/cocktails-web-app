@@ -1,0 +1,14 @@
+.btn-primary {
+    border-radius: 32px;
+    background: linear-gradient(90deg, #F13255 0%, #D134D1 100%);
+
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    padding: 12px 32px;
+    height: 50px;
+    width: 100%;
+    max-width: 590px;
+}
